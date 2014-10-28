@@ -7,7 +7,7 @@
 
 # Everyone can share the same token for development/test
 if ENV['SECRET_TOKEN'].present?
-  Errbit::Application.config.secret_token = ENV['SECRET_TOKEN']
+  Errbit::Application.config.secret_token = '2cbef862a0af1f508ec3a70cc73c5500bac7b8f126acbe4a50ded78153ef8279c8c8ec609f0fa8b71eced68d849c3944c0146537212f1026b25f0b069a81ed93'
 
   # Do not raise an error if secret token is not available during assets precompilation
 elsif %w(development test).include?(Rails.env) || ENV['RAILS_GROUPS'] == 'assets'
