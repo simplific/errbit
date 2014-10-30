@@ -1,0 +1,1 @@
+Errbit::Application.config.secret_token = '8021fb8c10647288a56e99b357cc2c2458999ffd2c08ef54573d005125e38fbfcdb9adca0c1a35b2256257fd0ca8ff760c6b2c25ab122fff8be688a68982186a'
